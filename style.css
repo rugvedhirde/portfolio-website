@@ -147,3 +147,15 @@ footer a { color: #ffb454; text-decoration: none; }
     .links { justify-content: center; gap: 12px; }
     .alt { border-radius: 36px; }
 }
+
+/* LISTS AND TABLES */
+.list { margin: 14px 0 0 0; padding-left: 20px; }
+.list li { margin-bottom: 6px; }
+.list li::marker { color: #ffb454; }
+
+.table-wrap { overflow-x: auto; border: 1px solid #1f2740; border-radius: 26px; }
+table { width: 100%; border-collapse: collapse; font-size: 14.5px; }
+th { text-align: left; color: #ffb454; font-size: 12px; text-transform: uppercase; letter-spacing: 1.2px; padding: 16px 24px; background-color: #121829; }
+td { padding: 14px 24px; border-top: 1px solid #1f2740; background-color: #151c30; }
+td:first-child { color: #f1f4fc; font-weight: 500; width: 32%; }
+tr:hover td { background-color: #1a2240; }
